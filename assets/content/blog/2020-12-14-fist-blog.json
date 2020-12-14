@@ -1,0 +1,6 @@
+{
+  "date": "2020-12-14T17:50:08.165Z",
+  "title": "fist blog",
+  "description": "salamu alaykum",
+  "body": "<!--StartFragment-->\n\nIn the last month, I gradually migrated several projects from server-rendered Nuxt.js applications to statically generated websites, powered by Nuxt.js too, as already hinted in my [previous article](https://blog.lichter.io/posts/nuxt-with-an-api/#static-pages).\n\nIt all started with my [portfolio](https://lichter.io/) which consists of one larger page and two pages for privacy and legal notice. All three pages have actually no dynamic data involved (as you can see in the source code). The text, the images and everything else are completely hardcoded. Last year, the page was served from one of my Virtual Private Servers (VPS) by always running Node.js server. The only purpose of it was to respond with the same content again and again.\n\nAt some point, I thought that there must be a better way, so I started using Nuxt.js as Static Site Generator. Now no Node server was involved anymore, only plain HTML files that were served by the VPS. Not too bad, but… why do I need a **server at all** for managing a simple static page? Correct, I **do not!** But more about that in a second.\n\n<!--EndFragment-->"
+}
